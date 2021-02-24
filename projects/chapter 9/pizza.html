@@ -19,46 +19,49 @@
 <p>Our 12" wood-fired pizzas are available for delivery. Build your custom pizza and we'll deliver it within an hour.</p>
 
 
-Your Information
+<fieldset>
+    <legend>Your Information</legend>
 <ul>
-  <li>Name:<input type="text" name="customername"></li>
-  <li>Address:<input type="text" name="customeradress"></li>
-  <li>Telephone Number:<input type="text" name="customernumber"></li>
-  <li>Email:<input type="text" name="customeremail"></li>
+  <li><label for="form-name">Name:</label><input type="text" name="customername" id="form-name"></li>
+  <li><label for="form-name">Name:</label>Address:<input type="text" name="customeradress" id="form-name"></li>
+  <li><label for="form-name">Name:</label>Telephone Number:<input type="text" name="customernumber" id="form-name"></li>
+  <li><label for="form-name">Name:</label>Email:<input type="text" name="customeremail" id="form-name"></li>
   <li>Delivery instructions:<br>
   <textarea name="instructions" rows="4" cols="60" maxlength="400" placeholder="No more thatn 400 characters long"></textarea></li>
 </ul>
 
 
 <h2>Design Your Dream Pizza:</h2>
+<fieldset></fieldset>
 
-<p>Pizza specs<p>
+<legend>Pizza specs</legend>
 
-<p>Crust <em>(Choose one)</em>:</p>
+<legend>Crust <em>(Choose one)</em>:</legend>
 <ul>
-  <li><input type="radio" name="crust" value="white">Classic white</li>
-  <li><input type="radio" name="crust" value="multigrain">Multigrain</li>
-  <li><input type="radio" name="crust" value="cheese-stuffed">Cheese-stuffed crust</li>
-  <li><input type="radio" name="crust" value="Gluten-free">Gluten-free</li>
+  <li><label><input type="radio" name="crust" value="white">Classic white</label></li>
+  <li><label><input type="radio" name="crust" value="multigrain">Multigrain</label></li>
+  <li><label><input type="radio" name="crust" value="cheese-stuffed">Cheese-stuffed crust</label></li>
+  <li><label><input type="radio" name="crust" value="Gluten-free">Gluten-free</label></li>
 </ul>
 
-<p>Toppings <em>(Choose as many as you want)</em>:</p>
+<legend> <em>(Choose as many as you want)</em>:</legend>
 <ul>
-  <li><input type="checkbox" name="red sauce" value="white">Red sauce</li>
-  <li><input type="checkbox" name="white sauce" value="white">White sauce</li>
-  <li><input type="checkbox" name="mozzarella cheese" value="white">Mozzarella Cheese</li>
-  <li><input type="checkbox" name="Pepperoni" value="white">Pepperoni</li>
-  <li><input type="checkbox" name="Mushrooms" value="white">Mushrooms</li>
-  <li><input type="checkbox" name="Peppers" value="white">Peppers</li>
-  <li><input type="checkbox" name="Anchovies" value="white">Anchovies</li>
+  <li><label>input type="checkbox" name="red sauce" value="white">Red sauce</label></li>
+  <li><label><input type="checkbox" name="white sauce" value="white">White sauce</label></li>
+  <li><label><input type="checkbox" name="mozzarella cheese" value="white">Mozzarella Cheese</label></li>
+  <li><label><input type="checkbox" name="Pepperoni" value="white">Pepperoni</label></li>
+  <li><label><input type="checkbox" name="Mushrooms" value="white">Mushrooms</label></li>
+  <li><label><input type="checkbox" name="Peppers" value="white">Peppers</label></li>
+  <li><label><input type="checkbox" name="Anchovies" value="white">Anchovies</label></li>
 </ul>
 
-<p>Number</p>
+<legend>Number</legend>
 <p>How many pizzas:<p>
   <p><select name="pizzas" size="1" >
                 <option>1</option>
   </select>
 </p>
+</fieldset>
 
 <p><input type="submit" value="Bring me Pizza!"><input type="reset"></p>
 </form>
